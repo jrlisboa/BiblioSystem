@@ -1,0 +1,274 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:baseline;
+	text-decoration: none;
+}
+body{
+    background: url(img/fundo.jpg);
+    background-color:#333;
+}
+header{
+	background: #333;
+	width:100%;
+}
+.menu{
+    display: block;
+    top:0;
+    width:100%;
+}
+ul {
+    height:5em;
+	text-align: center;
+    position: relative;
+    list-style:none;
+    background: #00a181;
+}
+.nivel1{
+    padding-top: 2em;
+    margin-right: 40px;
+}
+li {
+	text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+li a{
+    text-rendering: optimizeSpeed;
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 20px;
+    color:#d8d8d8;
+}
+
+li:hover > ul {
+
+    transition: all 500ms ease;
+    display: block; 
+
+    
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 5px 18px;
+    height:6.5em;
+    background-color: #00a181;
+
+}
+.dropsao{
+
+    border-radius: 6px;
+
+}
+
+ul ul li {
+    display: block;
+    float:left;
+}
+
+ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+.centro{
+
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.menupag ul{
+
+    list-style: none;
+    display: block;
+}
+.menupag li{
+
+    background-color: #00a181;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    border-bottom: 3px solid #333;
+    height: 30%;
+    
+}
+
+.menupag li a{
+
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 20px;
+    display: block;
+
+
+}
+
+.menupag li:hover{
+
+    transition: all 500ms ease;
+    background-color: #009175;
+    width: 100%;
+    position: relative;
+    height: 35%;
+    border-bottom: 3px solid #333;
+    padding-top: 30px;
+    
+}
+
+/*os hover agora parça sehloiro*/
+
+a:hover {
+    color:#fff;
+}
+a:active {
+    color:#fff;
+}
+/*formulario do vitao*/
+table{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;
+}
+.sucesso{
+
+    width: 100%;
+    background-color: #009175;
+    position: relative;
+    color: #fff;
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 20px; 
+    padding: 10px;
+}
+
+.erro{
+
+    width: 100%;
+    background-color: #e74c3c;
+    position: relative;
+    color: #fff;
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 20px; 
+    padding: 10px;
+}
+
+.alerta{
+
+    width: 100%;
+    background-color: #34495e;
+    position: relative;
+    color: #fff;
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 20px; 
+    padding: 10px;
+}
+
+/*estilizaçao dos formularios*/
+div.formulario{
+    text-align: center;
+    margin-top: 10%;
+}
+form p{
+    color:#D8D8D8;
+}
+.botao{
+    border: none;
+    margin: 20px 0px;
+    font-family: 'Source Sans Pro',Sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 7px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+}
+.botao:hover{
+
+    transition: all 100ms ease;
+    background-color:#00a188;
+    font-size: 19px;
+    padding: 9px;
+
+}
+form{
+    width:250px;
+    height: auto;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #555;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.textcad{
+
+    font-family: 'Source Sans Pro',Sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: -9px;
+    margin-top: 10px;
+}
+.caixacad{
+
+    min-height: 20px;
+    border-radius: 4px;
+    border: none;
+}
+.caixacad:hover{
+
+    transition: all 880ms ease;
+    min-height: 28px;
+    min-width: 190px;
+}
+
+
+/* formatando consulta */
+
+.dados{
+
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #555;
+    margin: 30px;
+    width: 50%;
+    height: auto;
+}
+.dados:hover{
+
+    transition: all 500ms ease;
+    width: 70%;
+}
+.tituloconsu{
+
+    font-family: 'Source Sans Pro',Sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px;
+    background-color: #333;
+    border-radius: 4px;
+    padding: 3px;
+    margin-top: 50px;
+}
+.conteudoconsu{
+
+    font-family: 'Source Sans Pro',Sans-serif;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 3px;
+    margin-top: 50px;
+}
